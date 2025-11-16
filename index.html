@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PobblyBoo Story Mint</title>
+
+<!-- Open Graph -->
+<meta property="og:title" content="PobblyBoo Story Mint" />
+<meta property="og:description" content="Limited to 333 Supply — Farcaster Only" />
+<meta property="og:image" content="https://files.catbox.moe/tc5whz.jpg" />
+<meta property="og:url" content="https://pobblyboo.vercel.app/" />
+<meta property="og:type" content="website" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="PobblyBoo Story Mint" />
+<meta name="twitter:description" content="Limited to 333 Supply — Farcaster Only" />
+<meta name="twitter:image" content="https://files.catbox.moe/tc5whz.jpg" />
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #05070d;
+        font-family: "Inter", sans-serif;
+        color: white;
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    .container {
+        padding: 20px;
+        animation: fadeIn 1.5s ease forwards;
+        opacity: 0;
+    }
+
+    h1 {
+        margin-top: 20px;
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    p {
+        font-size: 15px;
+        opacity: 0.8;
+        margin-bottom: 20px;
+    }
+
+    .portal {
+        width: 90%;
+        max-width: 420px;
+        margin: 0 auto;
+        border-radius: 12px;
+        display: block;
+        animation: glow 3s ease-in-out infinite;
+        box-shadow: 0 0 25px rgba(0, 150, 255, 0.4);
+    }
+
+    @keyframes glow {
+        0% { box-shadow: 0 0 15px rgba(0, 150, 255, 0.3); }
+        50% { box-shadow: 0 0 35px rgba(0, 200, 255, 0.7); }
+        100% { box-shadow: 0 0 15px rgba(0, 150, 255, 0.3); }
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .mint-btn {
+        display: inline-block;
+        margin-top: 25px;
+        padding: 14px 28px;
+        background: linear-gradient(135deg, #00c6ff, #7d5ffc);
+        border-radius: 12px;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        box-shadow: 0 0 18px rgba(0,200,255,0.5);
+        animation: pulse 2.5s infinite;
+    }
+
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.06); }
+        100% { transform: scale(1); }
+    }
+
+    .note {
+        margin-top: 25px;
+        font-size: 13px;
+        opacity: 0.6;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <h1>PobblyBoo Story Mint</h1>
+    <p>Limited to 333 Supply — Farcaster Only</p>
+
+    <img
+        src="https://files.catbox.moe/d71v09.jpg"
+        class="portal"
+        alt="Pobbly Portal"
+    />
+
+    <a class="mint-btn" href="https://manifold.xyz/@pobblyboo/id/4113443056" target="_blank">
+        ✧ Mint Now ✧
+    </a>
+
+    <p class="note">Tap Mint to continue the story...</p>
+</div>
+
+</body>
+</html>
